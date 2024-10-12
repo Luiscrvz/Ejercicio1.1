@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio1.1.Modelos
+namespace Ejercicio1.1.vistas
 {
     public class Operaciones
     {
@@ -31,7 +31,7 @@ namespace Ejercicio1.1.Modelos
         {
             if (divisor == 0)
             {
-                throw new DivideByZeroException("Error no se puede dividir entre cero");
+                throw new DivideByZeroException("Error no se puede");
             }
             return dividendo / divisor;
         }

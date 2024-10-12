@@ -1,8 +1,8 @@
 namespace Ejercicio1.1;
 
-public partial class resultado : ContentPage
+public partial class resultado1 : ContentPage
 {
-    public resultado(double resultado)
+    public resultado1(double resultado)
     {
         InitializeComponent();
         EtiquetaResultado.Text = $"Resultado: {resultado}";

@@ -15,9 +15,9 @@ namespace Ejercicio1.1
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
+    DEBUG
     		builder.Logging.AddDebug();
-#endif
+
 
             return builder.Build();
         }
